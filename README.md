@@ -1,9 +1,3 @@
-
----
-
-## **Backend README (`Assignment-1-Login-signup-backend/README.md`)**
-
-```markdown
 # Assignment-1 Backend
 
 This is the **backend** of Assignment-1 built with **NestJS + TypeScript**.
@@ -80,5 +74,3 @@ Frontend redirects user to /welcome page
         │
         ▼
 Welcome page displayed: "You have successfully logged in"
-
----
