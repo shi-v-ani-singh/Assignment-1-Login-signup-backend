@@ -7,13 +7,11 @@ This is the **backend** of Assignment-1 built with **NestJS + TypeScript**.
 - User registration and login
 - Simple **in-memory store** for users (temporary, resets on server restart)
 - Login returns a **fake JWT token** in console for demo
-- Get all users (for development/demo purposes)
 
 ## Endpoints
 
 - `POST /auth/register` → Register a new user
 - `POST /auth/login` → Login user
-- `GET /auth/all-users` → See all users (DEV only)
 
 ## How to Run
 

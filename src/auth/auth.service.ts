@@ -46,8 +46,4 @@ export class AuthService {
 
         return { token: 'fake-jwt-token' };
     }
-    // DEV ONLY: get all users
-    getAllUsers() {
-        return this.users;
-    }
 }

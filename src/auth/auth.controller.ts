@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Get } from '@nestjs/common';
+import { Controller, Post, Body} from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
 import { AuthService } from './auth.service';
 import { LoginDto } from './dto/login.dto';
@@ -15,10 +15,5 @@ export class AuthController {
     @Post('login')
     async login(@Body() loginDto: LoginDto) {
         return this.authService.login(loginDto);
-    }
-    // DEV ONLY: see all registered users
-    @Get('all-users')
-    getAllUsers():any {
-        return this.authService.getAllUsers();
     }
 }
